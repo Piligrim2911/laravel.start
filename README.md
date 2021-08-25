@@ -1,2 +1,2 @@
-# izamax_cms
-IzaMAX CMS
+# Laravel start kit
+Laravel start kit

@@ -1,1 +1,2 @@
-# laravel.start
+# izamax_cms
+IzaMAX CMS

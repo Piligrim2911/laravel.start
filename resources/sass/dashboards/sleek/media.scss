@@ -1,0 +1,19 @@
+$media-direction: max !default;
+
+@mixin css_property($property, $value) {
+    @if type_of($value) == string {
+        #{$property}: unquote($value);
+    } @else {
+        #{$property}: $value;
+    }
+}
+
+@mixin media($properties) {
+    @each $screenResolution, $property in $properties {
+        @media only screen and (#{$media-direction}-width: $screenResolution + 'px') {
+            @each $prop, $val in $property {
+                @include css_property($prop, $val);
+            }
+        }
+    }
+};

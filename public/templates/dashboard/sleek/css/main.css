@@ -1,0 +1,73 @@
+body {
+  font-size: 16px;
+}
+
+.wrapper .content-wrapper .content .content-block {
+  padding: 15px;
+  border-top: solid 4px #4871EC;
+  background: #fff;
+}
+.wrapper .content-wrapper .content .content-block .block-header {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper .content-wrapper .content .content-block .block-header .block-title {
+  margin-bottom: 1rem;
+  color: #000;
+}
+.wrapper .content-wrapper .content .content-block .block-body table.table .thead-light .col-title th {
+  padding: 4px 0.75rem;
+  font-size: 14px;
+  background-color: #f5f5f5;
+}
+.wrapper .content-wrapper .content .content-block .block-body table.table thead th.id {
+  width: 50px;
+}
+.wrapper .content-wrapper .content .content-block .block-body table.table thead th.flag {
+  width: 65px;
+  text-align: center;
+}
+.wrapper .content-wrapper .content .content-block .block-body table.table thead th.iso {
+  width: 155px;
+  text-align: center;
+}
+.wrapper .content-wrapper .content .content-block .block-body table.table thead th.status {
+  width: 120px;
+  text-align: center;
+}
+.wrapper .content-wrapper .content .content-block .block-body table.table thead th.actions {
+  width: 150px;
+  text-align: center;
+}
+.wrapper .content-wrapper .content .content-block .block-body table.table tbody tr.deleted td.title a:link, .wrapper .content-wrapper .content .content-block .block-body table.table tbody tr.deleted td.title a:visited {
+  color: #e46464;
+  text-decoration: line-through;
+}
+.wrapper .content-wrapper .content .content-block .block-body table.table tbody tr.deleted td.actions a {
+  font-size: 18px;
+}
+.wrapper .content-wrapper .content .content-block .block-body table.table tbody tr.deleted td.actions a.restore {
+  color: green;
+}
+.wrapper .content-wrapper .content .content-block .block-body table.table tbody tr.deleted td.actions a.delete {
+  color: red;
+}
+.wrapper .content-wrapper .content .content-block .block-body table.table tbody td.title p.subtitle {
+  font-size: 14px;
+  color: #707070;
+}
+.wrapper .content-wrapper .content .content-block .block-body table.table tbody td.status > a {
+  margin: 0 7px;
+}
+.wrapper .content-wrapper .content .content-block .block-body table.table tbody td.status > a i.published {
+  color: #0f0;
+}
+.wrapper .content-wrapper .content .content-block .block-body table.table tbody td.status > a i.unpublished {
+  color: #f00;
+}
+.wrapper .content-wrapper .content .content-block .block-body table.table tbody td.status > a i.disabled {
+  color: #ccc;
+}
+.wrapper .content-wrapper .content .content-block .block-body table.table tbody td.actions a {
+  font-size: 17px;
+}
